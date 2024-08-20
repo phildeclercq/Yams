@@ -31,7 +31,7 @@ if __name__ == '__main__':
         choix1 = input('Que fais tu ?' )
         result = (compter(tabDes,int(choix1)))
         Grille[int(choix1)] = result
-        print('Voici ta grille :')
+        print('Voici ta grille : ')
         for Number in range(1,len(Grille)):
             print(str(Number) + ' : '  + str(Grille[Number]))
         print("Total : " + str(calculTotal(Grille)))
