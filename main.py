@@ -13,7 +13,7 @@ def compter(Tab,Nb):
     return points
 
 if __name__ == '__main__':
-    Name = input('Entre ton nom : ')
+    Name = input('Entre ton nom  : ')
     Grille = [Name, "X", "X", "X", "X", "X", "X"]
     print('Voici ta grille de Yams de ' + Name)
     for Number in range(1,len(Grille)):
